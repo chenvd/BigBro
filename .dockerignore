@@ -1,0 +1,5 @@
+.git
+.github
+config
+venv
+frontend/node_modules
