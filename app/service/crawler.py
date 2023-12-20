@@ -119,5 +119,5 @@ def do_job(rule_id: int):
         db.add(rule)
         db.commit()
 
-        if rule.status != 0:
+        if history.status != 0:
             notify.send(rule, history)
